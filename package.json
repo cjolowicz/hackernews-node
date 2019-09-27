@@ -1,0 +1,8 @@
+{
+  "name": "hackernews-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:cjolowicz/hackernews-node.git",
+  "author": "Claudio Jolowicz <claudio.jolowicz@cyren.com>",
+  "license": "MIT"
+}

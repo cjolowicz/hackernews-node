@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:cjolowicz/hackernews-node.git",
   "author": "Claudio Jolowicz <claudio.jolowicz@cyren.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  }
 }

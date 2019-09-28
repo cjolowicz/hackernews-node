@@ -1,4 +1,4 @@
-endpoint: ''
+endpoint: https://eu1.prisma.sh/claudio-jolowicz-30ff26/hackernews-node/dev
 datamodel: datamodel.prisma
 generate:
   - generator: javascript-client

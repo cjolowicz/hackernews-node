@@ -31,3 +31,9 @@ type Link {
   url: String!
   postedBy: User
 }
+
+type Vote {
+  id: ID!
+  link: Link!
+  user: User!
+}

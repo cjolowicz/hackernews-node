@@ -49,3 +49,8 @@ enum LinkOrderByInput {
   createdAt_ASC
   createdAt_DESC
 }
+
+type Feed {
+  links: [Link!]!
+  count: Int!
+}

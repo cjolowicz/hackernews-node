@@ -30,6 +30,20 @@ const resolvers = {
       links.push(link);
       return link;
     },
+    updateLink: (parent, args) => {
+      let i = links.length;
+      while (i--) {
+        const link = links[i];
+        if (link.id === args.id) {
+          for ([key, value] of Object.entries(args)) {
+            if (value != null) {
+              link[key] = value;
+            }
+          }
+          return link;
+        }
+      }
+    },
     deleteLink: (parent, args) => {
       let i = links.length;
       while (i--) {

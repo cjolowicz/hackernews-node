@@ -8,7 +8,7 @@ type Query {
 
 const resolvers = {
   Query: {
-    info: () => null
+    info: () => `This is the API of a Hackernews Clone`
   }
 };
 

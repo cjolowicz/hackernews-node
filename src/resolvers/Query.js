@@ -15,7 +15,8 @@ function feed(parent, args, context, info) {
   return context.prisma.links({
     where,
     skip: args.skip,
-    first: args.first
+    first: args.first,
+    orderBy: args.orderBy
   });
 }
 

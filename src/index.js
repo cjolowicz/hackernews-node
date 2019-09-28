@@ -29,6 +29,16 @@ const resolvers = {
 
       links.push(link);
       return link;
+    },
+    deleteLink: (parent, args) => {
+      let i = links.length;
+      while (i--) {
+        const link = links[i];
+        if (link.id === args.id) {
+          links.splice(i, 1);
+          return link;
+        }
+      }
     }
   }
 };
